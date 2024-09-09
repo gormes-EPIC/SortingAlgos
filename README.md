@@ -6,15 +6,17 @@
 ## Objective
 
 - Create a class called `QuadSorts` with the following methods.
-    - `public static int[] bubbleSort(int[] arr)` - sorts an array _arr_ using bubble sort and returns the sorted array
-    - `public static int[] selectionSort(int[] arr)` - sorts an array _arr_ using selection sort and returns the sorted array
-    - `public static int[] insertionSort(int[] arr` - sorts an array _arr_ using insertion sort and returns the sorted array
-    - `public static int[] mergeSort(int[] arr)` - sorts an array _arr_ using merge sort and returns the sorted array
-- Use `System.currentTimeMillis()` in `SortingTester` to time each of the 4 sorts for the 5 input values of `n`. 
+  - `public static int[] bubbleSort(int[] arr)` - sorts an array _arr_ using bubble sort and returns the sorted array
+  - `public static int[] selectionSort(int[] arr)` - sorts an array _arr_ using selection sort and returns the sorted array
+  - `public static int[] insertionSort(int[] arr` - sorts an array _arr_ using insertion sort and returns the sorted array
+  - `public static int[] mergeSort(int[] arr)` - sorts an array _arr_ using merge sort and returns the sorted array
+- Use `System.currentTimeMillis()` in `SortingTester` to time each of the 4 sorts for the 5 input values of `n`.
 - **Optional:** Include a Quicksort algorithm in your `QuadSorts` class.
 - Your submission should be pushed to GitHub classroom. It should include `QuadSorts`, `QuadSorts.html` and answers to the following questions.
   - Create a graph of how long each method takes for each of 5 given values of `N`.
-  - Make a prediction for the numerical runtime of the sorting method by comparing it to common functions like `n`, `n^2`, `n!`, `log(n)` etc. 
+  - Make a prediction for the numerical runtime of the sorting method by comparing it to common functions like `n`, `n^2`, `n!`, `log(n)` etc.
+  - What is the differnce between **recursive** and **iterative** design? Why would we use one over the other?
+  - What two things do a recursive method contain?
 - Please review the Javadoc Reference documentation and Data Structures Style Guide.
 
 ## Rubric
@@ -24,29 +26,29 @@
 
 - 6 points - All required items are present.
 - 5 points - Task was completed, but supplementary materials are weak or missing.
-    - Code was uncommented.
-    - Solution is correct but is significantly difficult to read, highly inefficient, very clumsy, very difficult to extend etc. From the original Jargon File, we would refer to solutions like this as *kluge*.
-    - Reflection questions related to content were incorrect.
+  - Code was uncommented.
+  - Solution is correct but is significantly difficult to read, highly inefficient, very clumsy, very difficult to extend etc. From the original Jargon File, we would refer to solutions like this as *kluge*.
+  - Reflection questions related to content were incorrect.
 - 4 points - Task was attempted, but is missing major components.
-    - Coding prompt was only partially completed
-    - Some deliverables are missing
+  - Coding prompt was only partially completed
+  - Some deliverables are missing
 - 3 points - Did not attempt or student should reattempt.
 
 *Workforce Readiness*
 
 - 4 points - Exemplified  WFR standards
-    - Language is professional.
-    - Work is clear and easy to read.
-    - Used deductive reasoning guide solution.
-    - Reflection on own work was thoughtful and honest.
+  - Language is professional.
+  - Work is clear and easy to read.
+  - Used deductive reasoning guide solution.
+  - Reflection on own work was thoughtful and honest.
 - 3 points - Practiced WFR standards
-    - Language is readable but not professional.
-    - Work is understandable but not completely clear.
-    - Reflection on own work was weak.
-    - Citations were not complete.
+  - Language is readable but not professional.
+  - Work is understandable but not completely clear.
+  - Reflection on own work was weak.
+  - Citations were not complete.
 - 2 points - Developing WFR standards
-    - Work is unprofessional. Significant spelling or grammar errors.
-    - Did not attempt or student should reattempt.
+  - Work is unprofessional. Significant spelling or grammar errors.
+  - Did not attempt or student should reattempt.
 
 
 
@@ -60,13 +62,13 @@ The Javadoc tool allows users to generate an API reference for your project in H
 The general format of a Javadoc comment for a class is as follows:
 
 ```java
-/**  
-* Description of the class  
-*  
-* @author Ms. Ormes  
-* @version 1.0, 09/12/2023  
-* @see packages, interfaces, imports etc. you are referencing from another location  
-*/
+/**
+ * Description of the class  
+ *
+ * @author Ms. Ormes  
+ * @version 1.0, 09/12/2023  
+ * @see packages, interfaces, imports etc. you are referencing from another location  
+ */
 public class ExampleClass{
 	...
 }
@@ -76,13 +78,13 @@ The general format of a Javadoc comment for a method is as follows:
 
 ```java
 /**
-* This explains what the method does
-* 
-* @param exampleParameter this explains what this parameter does
-* @return this describes what the method returns
-*/
+ * This explains what the method does
+ *
+ * @param exampleParameter this explains what this parameter does
+ * @return this describes what the method returns
+ */
 public int exampleMethod(int exampleParameter){
-	return null;
+  return null;
 }
 ```
 
